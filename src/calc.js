@@ -9,6 +9,8 @@
   venusAge() {
     let ageOnVenus = Math.round(this.baseAge / .62);
     return ageOnVenus;
-
+  }
+  marsAge() {
+    
   }
 }

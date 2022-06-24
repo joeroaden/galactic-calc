@@ -14,4 +14,8 @@ describe ('Age', () => {
     const newAge = new Age (32);
     expect (newAge.venusAge()).toEqual(52);
   });
+  test('it should convert age to mars years', () => {
+    const newAge = new Age (32);
+    expect (newAge.marsAge()).toEqual(17);
+  });
 });
