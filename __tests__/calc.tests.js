@@ -26,4 +26,8 @@ describe ('Age', () => {
     const newAge = new Age (32);
     expect (newAge.lifeOnEarth()).toEqual(73);
   });
+  test("it should calculate the years remianing on Earth", () => {
+    const newAge = new Age (32);
+    expect (newAge.lifeLeftOnEarth()).toEqual(41);
+  });
 });

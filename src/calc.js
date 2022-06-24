@@ -23,4 +23,7 @@
     return avgLifeOnEarth;
 
   }
+  lifeLeftOnEarth() {
+    
+  }
 }
