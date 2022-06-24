@@ -18,4 +18,7 @@
     let ageOnJupiter = Math.round(this.baseAge / 11.86);
     return ageOnJupiter;
   }
+  lifeOnEarth() {
+    
+  }
 }

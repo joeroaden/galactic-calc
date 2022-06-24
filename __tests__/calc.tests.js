@@ -21,5 +21,9 @@ describe ('Age', () => {
   test('it should convert age to jupiter years', () => {
     const newAge = new Age (32);
     expect (newAge.jupiterAge()).toEqual(3);
+  }); 
+  test('it should calculate the life expectancy on earth', () => {
+    const newAge = new Age (32);
+    expect (newAge.lifeOnEarth()).toEqual(73);
   });
 });
