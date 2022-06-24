@@ -1,8 +1,8 @@
  export class Age {
-   //constructor(baseAge) {
-    //this.baseAge = baseAge;
+   constructor(baseAge) {
+    this.baseAge = baseAge;
  }
   //mercuryAge() {
 
   //}
-//}
+}
