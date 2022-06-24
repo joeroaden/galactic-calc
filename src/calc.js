@@ -19,6 +19,8 @@
     return ageOnJupiter;
   }
   lifeOnEarth() {
-    
+    let avgLifeOnEarth = 73;
+    return avgLifeOnEarth;
+
   }
 }
