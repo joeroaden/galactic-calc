@@ -36,9 +36,9 @@ _A web application that takes the age from a user and calculates their age on di
 3. Once within your desired directory to save the clone, type the following in your terminal
 _$ git clone https://github.com/joeroaden/galactic-calc
 
-4. Since this is a public repository, no credentials will be needed and you can now navigate into the programming-suggestor directory to access the directory
+4. Since this is a public repository, no credentials will be needed and you can now navigate into the directory
 
-5. Acces the html page called index.html and you are ready to begin using the application
+5. Acces the html page called index.html and you are ready to begin using the application once the UI is completed
 
 6. For additional information and help, here is a link to GitHub Docs that provides detailed explanations - https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
 
