@@ -2,7 +2,7 @@
    constructor(baseAge) {
     this.baseAge = baseAge;
  }
-  //mercuryAge() {
+  mercuryAge() {
 
-  //}
+  }
 }
