@@ -10,8 +10,8 @@ describe ('Age', () => {
     const newAge = new Age (32);
     expect (newAge.mercuryAge()).toEqual(133);
   });
-  test('it should convert age to venus years'), () => {
+  test('it should convert age to venus years', () => {
     const newAge = new Age (32);
     expect (newAge.venusAge()).toEqual(52);
-  };
+  });
 });
