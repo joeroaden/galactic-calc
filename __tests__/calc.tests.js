@@ -42,5 +42,9 @@ describe ('Age', () => {
     const newAge = new Age (32);
     expect (newAge.lifeLeftOnMars()).toEqual(22);
   });
+  test("it should calculate the years remaining on Jupiter", () => {
+    const newAge = new Age (32);
+    expect (newAge.lifeLeftOnJupiter()).toEqual(3);
+  });
 
 });

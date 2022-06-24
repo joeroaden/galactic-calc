@@ -48,6 +48,8 @@ export class Age {
     let lifeLeftOnEarth = Math.round(avgLifeOnEarth - myAge);
     let lifeLeftMars = Math.round(lifeLeftOnEarth / 1.88);
     return lifeLeftMars
-
+  }
+  lifeLeftOnJupiter () {
+    
   }
 }
