@@ -24,6 +24,10 @@
 
   }
   lifeLeftOnEarth() {
-    
+    let avgLifeOnEarth = 73;
+    let myAge = 32;
+    let lifeLeftOnEarth = Math.round(avgLifeOnEarth - myAge);
+    return lifeLeftOnEarth
+
   }
 }

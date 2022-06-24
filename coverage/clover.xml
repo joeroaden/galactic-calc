@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1656106882272" clover="3.2.0">
-  <project timestamp="1656106882272" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="18" coveredelements="18" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+<coverage generated="1656107504328" clover="3.2.0">
+  <project timestamp="1656107504328" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="22" coveredelements="22" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
     <file name="calc.js" path="/Users/joeroaden/Desktop/galactic-calc/src/calc.js">
-      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
       <line num="3" count="7" type="stmt"/>
       <line num="6" count="1" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
@@ -15,6 +15,10 @@
       <line num="19" count="1" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
       <line num="23" count="1" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
