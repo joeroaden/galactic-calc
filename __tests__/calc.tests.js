@@ -46,5 +46,9 @@ describe ('Age', () => {
     const newAge = new Age (32);
     expect (newAge.lifeLeftOnJupiter()).toEqual(3);
   });
+  test("it should return the number of years above the life expectancy when exceeding 73", () => {
+    const newAge = new Age (74);
+    expect (newAge.lifeExpectancy()).toEqual(1);
+  });
 
 });
