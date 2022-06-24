@@ -50,6 +50,11 @@ export class Age {
     return lifeLeftMars
   }
   lifeLeftOnJupiter () {
-    
+    let avgLifeOnEarth = 73;
+    let myAge = 32;
+    let lifeLeftOnEarth = Math.round(avgLifeOnEarth - myAge);
+    let lifeLeftJupiter = Math.round(lifeLeftOnEarth / 11.86);
+    return lifeLeftJupiter
+
   }
 }
