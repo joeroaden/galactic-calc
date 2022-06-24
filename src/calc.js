@@ -13,6 +13,8 @@
   marsAge() {
     let ageOnMars = Math.round(this.baseAge / 1.88);
     return ageOnMars;
-
+  }
+  jupiterAge() {
+    
   }
 }

@@ -18,4 +18,8 @@ describe ('Age', () => {
     const newAge = new Age (32);
     expect (newAge.marsAge()).toEqual(17);
   });
+  test('it should convert age to jupiter years', () => {
+    const newAge = new Age (32);
+    expect (newAge.jupiterAge()).toEqual(3);
+  });
 });
