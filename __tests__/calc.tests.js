@@ -38,5 +38,9 @@ describe ('Age', () => {
     const newAge = new Age (32);
     expect (newAge.lifeLeftOnVenus()).toEqual(66);
   });
+  test("it should calculate the years remaining on Mars", () => {
+    const newAge = new Age (32);
+    expect (newAge.lifeLeftOnMars()).toEqual(22);
+  });
 
 });

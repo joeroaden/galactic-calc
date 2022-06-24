@@ -42,4 +42,7 @@ export class Age {
     let lifeLeftVenus = Math.round(lifeLeftOnEarth / .62);
     return lifeLeftVenus;
   }
+  lifeLeftOnMars() {
+    
+  }
 }
