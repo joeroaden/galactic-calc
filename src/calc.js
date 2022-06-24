@@ -1,13 +1,13 @@
- export class Age {
-   constructor(baseAge) {
+export class Age {
+  constructor(baseAge) {
     this.baseAge = baseAge;
- }
+  }
   mercuryAge() {
-    let ageOnMercury = Math.round(this.baseAge / .24);
+    let ageOnMercury = Math.round(this.baseAge / 0.24);
     return ageOnMercury;
   }
   venusAge() {
-    let ageOnVenus = Math.round(this.baseAge / .62);
+    let ageOnVenus = Math.round(this.baseAge / 0.62);
     return ageOnVenus;
   }
   marsAge() {
@@ -21,13 +21,14 @@
   lifeOnEarth() {
     let avgLifeOnEarth = 73;
     return avgLifeOnEarth;
-
   }
   lifeLeftOnEarth() {
     let avgLifeOnEarth = 73;
     let myAge = 32;
     let lifeLeftOnEarth = Math.round(avgLifeOnEarth - myAge);
-    return lifeLeftOnEarth
-
+    return lifeLeftOnEarth;
+  }
+  lifeLeftOnMercury() {
+    
   }
 }

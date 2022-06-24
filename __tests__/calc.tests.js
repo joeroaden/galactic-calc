@@ -30,4 +30,8 @@ describe ('Age', () => {
     const newAge = new Age (32);
     expect (newAge.lifeLeftOnEarth()).toEqual(41);
   });
+  test("it should calculate the years remaining on Mercury", () => {
+    const newAge = new Age (32);
+    expect (newAge.lifeLeftOnMercury()).toEqual(171);
+  });
 });
